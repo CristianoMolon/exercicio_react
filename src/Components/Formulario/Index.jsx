@@ -12,23 +12,23 @@ const calculadora = () => {
 
     if (IMC < 18,5) {
         return (
-            <p>Seu Imc: {IMC.toFixed(2)}kg/m^2</p>
+            <p>Seu Imc: {IMC.toFixed(2)}kg/m²</p>
         )
     } else if (IMC >= 18,5) {
         return (
-            <p>Seu Imc: {IMC.toFixed(2)}kg/m^2</p>
+            <p>Seu Imc: {IMC.toFixed(2)}kg/m²</p>
         )
     } else if (IMC >= 25,0) {
         return (
-            <p>Seu Imc: {IMC.toFixed(2)}kg/m^2</p>
+            <p>Seu Imc: {IMC.toFixed(2)}kg/m²</p>
         )
     } else if (IMC >= 30,0) {
         return (
-            <p>Seu Imc: {IMC.toFixed(2)}kg/m^2</p>
+            <p>Seu Imc: {IMC.toFixed(2)}kg/m²</p>
         )
     } else if (IMC >= 40,0) {
         return (
-            <p>Seu Imc: {IMC.toFixed(2)}kg/m^2</p>
+            <p>Seu Imc: {IMC.toFixed(2)}kg/m²</p>
         )
     }
 }
